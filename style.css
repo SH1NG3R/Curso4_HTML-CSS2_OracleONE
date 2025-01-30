@@ -1,6 +1,14 @@
-﻿body{
+﻿*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
     background-color: black;
     color: #F6F6F6;
+    height: 100vh;
+    box-sizing: border-box;
 
 }
 
@@ -8,8 +16,25 @@ h1{
     font-weight: bold;
 }
 
-strong{
-    color: #22d4fd;
+.titulo-destaque{
+    color: #22D4FD;
     border: 1px solid #22D4FD;
-    padding: 1px;
 }
+.titulo-blog{
+    color: #e7ffff;
+}
+
+.texto-destaque{
+    color: #14b8b8;
+
+}
+.urgente{
+    color: red;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+}
+
+.pudu { width: 500px; height: 300px; }
